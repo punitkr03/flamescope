@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "main": "app/public/index.html",
   "scripts": {
-    "dev": "concurrently \"python run.py\" \"NODE_ENV=development webpack-dev-server --hot --mode=development\"",
+    "dev": "concurrently \"python3 run.py\" \"NODE_ENV=development webpack-dev-server --hot --mode=development\"",
     "webpack-server": "NODE_ENV=development webpack-dev-server --hot --mode development",
     "webpack-watch": "NODE_ENV=development webpack --watch --mode development",
     "webpack": "NODE_ENV=production webpack --mode production",
